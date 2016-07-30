@@ -20,7 +20,6 @@ var fs = require('fs');
 var s2 = require('s2geometry-node');
 
 var Logins = require('./logins');
-var config = require('./config.json');
 
 var builder = ProtoBuf.loadProtoFile('pokemon.proto');
 if (builder === null) {
