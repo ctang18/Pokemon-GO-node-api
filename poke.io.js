@@ -547,6 +547,9 @@ function Pokeio() {
           return callback(new Error('location not found'));
         }
 
+        if (data.status === 'OVER_QUERY_LIMIT'){
+          return callback(new Error('Over Google Maps API Limit'));
+        }
         var _data$results$0$geome = data.results[0].geometry.location;
         var lat = _data$results$0$geome.lat;
         var lng = _data$results$0$geome.lng;
