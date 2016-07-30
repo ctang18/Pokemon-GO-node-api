@@ -585,6 +585,23 @@ function Pokeio() {
       }]), { key: self.gmapsApiKey });
     }
   };
+
+  // Alternative Movement without Geocoder
+  self.UpdateLocation = function (location, callback) {
+    if (location.type !== 'coords') {
+      return callback(new Error('Invalid location type'));
+    }
+
+    if (!location.coords) {
+      return callback(new Error('Coords object missing'));
+    }
+
+    self.playerInfo.latitude = location.coords.latitude || self.playerInfo.latitude;
+    self.playerInfo.longitude = location.coords.longitude || self.playerInfo.longitude;
+    self.playerInfo.altitude = location.coords.altitude || self.playerInfo.altitude;
+
+    callback(null, self.GetLocationCoords());
+  };
 }
 
 module.exports = new Pokeio();
