@@ -20,6 +20,7 @@ var fs = require('fs');
 var s2 = require('s2geometry-node');
 
 var Logins = require('./logins');
+var config = require('./config.json');
 
 var builder = ProtoBuf.loadProtoFile('pokemon.proto');
 if (builder === null) {
@@ -69,6 +70,7 @@ function Pokeio() {
   });
 
   self.google = new GoogleOAuth();
+  self.gmapsApiKey = '';
 
   self.pokemonlist = pokemonlist.pokemon;
 
@@ -123,16 +125,15 @@ function Pokeio() {
     };
 
     self.request.post(options, function (err, response, body) {
-      if (err)
-      {
+      if (err) {
         return callback(new Error('Error'));
       }
-      
+
       if (response === undefined || body === undefined) {
         console.error('[!] RPC Server offline');
         return callback(new Error('RPC Server offline'));
       }
-      
+
       var f_ret;
       try {
         f_ret = ResponseEnvelop.decode(body);
@@ -177,6 +178,10 @@ function Pokeio() {
         });
       });
     });
+  };
+
+  self.SetGmapsApiKey = function (key) {
+    self.gmapsApiKey = key;
   };
 
   self.GetAccessToken = function (user, pass, callback) {
@@ -287,10 +292,12 @@ function Pokeio() {
     geocoder.reverseGeocode.apply(geocoder, _toConsumableArray(GetCoords(self)).concat([function (err, data) {
       if (data.status === 'ZERO_RESULTS') {
         return callback(new Error('location not found'));
+      } else if (data.status === 'OVER_QUERY_LIMIT') {
+        return callback(new Error('Over Google Maps API Limit'));
       }
 
       callback(null, data.results[0].formatted_address);
-        }]));
+    }]));
   };
 
   // Still WIP
@@ -545,11 +552,10 @@ function Pokeio() {
       geocoder.geocode(locationName, function (err, data) {
         if (err || data.status === 'ZERO_RESULTS') {
           return callback(new Error('location not found'));
-        }
-
-        if (data.status === 'OVER_QUERY_LIMIT'){
+        } else if (data.status === 'OVER_QUERY_LIMIT') {
           return callback(new Error('Over Google Maps API Limit'));
         }
+
         var _data$results$0$geome = data.results[0].geometry.location;
         var lat = _data$results$0$geome.lat;
         var lng = _data$results$0$geome.lng;
@@ -560,7 +566,7 @@ function Pokeio() {
         self.playerInfo.locationName = locationName;
 
         callback(null, self.GetLocationCoords());
-      });
+      }, { key: self.gmapsApiKey });
     } else if (location.type === 'coords') {
       if (!location.coords) {
         return callback(new Error('Coords object missing'));
@@ -577,7 +583,7 @@ function Pokeio() {
         }
 
         callback(null, self.GetLocationCoords());
-            }]));
+      }]), { key: self.gmapsApiKey });
     }
   };
 }
