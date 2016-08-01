@@ -11,6 +11,7 @@
       "weight": "6.9 kg",
       "candy": "25 Bulbasaur Candy",
       "egg": "2 km",
+      "rarity": 2,
       "multipliers": 1.58,
       "weaknesses": [
         "Fire",
@@ -39,6 +40,7 @@
       "weight": "13.0 kg",
       "candy": "100 Bulbasaur Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": [
         1.2,
         1.6
@@ -72,6 +74,7 @@
       "weight": "100.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -100,6 +103,7 @@
       "weight": "8.5 kg",
       "candy": "25 Charmander Candy",
       "egg": "2 km",
+      "rarity": 2,
       "multipliers": 1.65,
       "weaknesses": [
         "Water",
@@ -127,6 +131,7 @@
       "weight": "19.0 kg",
       "candy": "100 Charmander Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": 1.79,
       "weaknesses": [
         "Water",
@@ -156,6 +161,7 @@
       "weight": "90.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -183,6 +189,7 @@
       "weight": "9.0 kg",
       "candy": "25 Squirtle Candy",
       "egg": "2 km",
+      "rarity": 2,
       "multipliers": 2.1,
       "weaknesses": [
         "Electric",
@@ -209,6 +216,7 @@
       "weight": "22.5 kg",
       "candy": "100 Squirtle Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": 1.4,
       "weaknesses": [
         "Electric",
@@ -237,6 +245,7 @@
       "weight": "85.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -415,6 +424,7 @@
       "weight": "29.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -643,6 +653,7 @@
       "weight": "65.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Ground",
@@ -686,6 +697,7 @@
       "weight": "30.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Ground"
@@ -813,6 +825,7 @@
       "weight": "60.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -898,6 +911,7 @@
       "weight": "62.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -950,6 +964,7 @@
       "weight": "40.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -997,6 +1012,7 @@
       "weight": "19.9 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -1041,6 +1057,7 @@
       "weight": "12.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -1089,6 +1106,7 @@
       "weight": "55.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -1171,6 +1189,7 @@
       "weight": "18.6 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -1278,6 +1297,7 @@
       "weight": "12.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -1325,6 +1345,7 @@
       "weight": "33.3 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -1369,6 +1390,7 @@
       "weight": "32.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -1412,6 +1434,7 @@
       "weight": "76.6 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -1460,6 +1483,7 @@
       "weight": "32.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Flying",
@@ -1509,6 +1533,7 @@
       "weight": "155.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -1589,6 +1614,7 @@
       "weight": "54.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -1677,6 +1703,7 @@
       "weight": "48.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Bug",
@@ -1763,6 +1790,7 @@
       "weight": "130.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Flying",
@@ -1818,6 +1846,7 @@
       "weight": "6.4 kg",
       "candy": "100 Bellsprout Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": 1.59,
       "weaknesses": [
         "Fire",
@@ -1848,6 +1877,7 @@
       "weight": "15.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -1899,6 +1929,7 @@
       "weight": "55.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -1990,6 +2021,7 @@
       "weight": "300.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -2046,6 +2078,7 @@
       "weight": "95.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -2094,6 +2127,7 @@
       "weight": "78.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -2145,6 +2179,7 @@
       "weight": "60.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -2168,6 +2203,7 @@
       "weight": "15.0 kg",
       "candy": "None",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -2209,6 +2245,7 @@
       "weight": "85.2 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -2256,6 +2293,7 @@
       "weight": "120.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -2302,6 +2340,7 @@
       "weight": "30.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Ground",
@@ -2346,6 +2385,7 @@
       "weight": "132.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -2431,6 +2471,7 @@
       "weight": "40.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Ground",
@@ -2459,6 +2500,7 @@
       "weight": "210.0 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -2505,6 +2547,7 @@
       "weight": "75.6 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Bug",
@@ -2553,6 +2596,7 @@
       "weight": "60.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -2599,6 +2643,7 @@
       "weight": "66.6 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Ground"
@@ -2650,6 +2695,7 @@
       "weight": "120.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -2700,6 +2746,7 @@
       "weight": "45.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -2723,6 +2770,7 @@
       "weight": "49.8 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Flying",
@@ -2740,6 +2788,7 @@
       "weight": "50.2 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Flying",
@@ -2757,6 +2806,7 @@
       "weight": "65.5 kg",
       "candy": "None",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -2794,6 +2844,7 @@
       "weight": "9.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Ground",
@@ -2842,6 +2893,7 @@
       "weight": "120.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -2868,6 +2920,7 @@
       "weight": "34.6 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -2883,6 +2936,7 @@
       "weight": "35.0 kg",
       "candy": "None",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -2902,6 +2956,7 @@
       "weight": "80.0 kg",
       "candy": "None",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -2939,6 +2994,7 @@
       "weight": "25.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -2986,6 +3042,7 @@
       "weight": "39.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3033,6 +3090,7 @@
       "weight": "80.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3058,6 +3116,7 @@
       "weight": "54.5 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Bug",
@@ -3075,6 +3134,7 @@
       "weight": "56.0 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -3094,6 +3154,7 @@
       "weight": "40.6 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -3114,6 +3175,7 @@
       "weight": "30.0 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Ground"
@@ -3129,6 +3191,7 @@
       "weight": "44.5 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -3146,6 +3209,7 @@
       "weight": "55.0 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 3,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -3163,6 +3227,7 @@
       "weight": "88.4 kg",
       "candy": "None",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -3203,6 +3268,7 @@
       "weight": "235.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3225,6 +3291,7 @@
       "weight": "220.0 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3243,6 +3310,7 @@
       "weight": "4.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -3290,6 +3358,7 @@
       "weight": "29.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3312,6 +3381,7 @@
       "weight": "24.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Ground"
@@ -3333,6 +3403,7 @@
       "weight": "25.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -3356,6 +3427,7 @@
       "weight": "36.5 kg",
       "candy": "None",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -3395,6 +3467,7 @@
       "weight": "35.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3446,6 +3519,7 @@
       "weight": "40.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3470,6 +3544,7 @@
       "weight": "59.0 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -3489,6 +3564,7 @@
       "weight": "460.0 kg",
       "candy": "None",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -3504,6 +3580,7 @@
       "weight": "55.4 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 6,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -3522,6 +3599,7 @@
       "weight": "52.6 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 6,
       "multipliers": null,
       "weaknesses": [
         "Ice",
@@ -3538,6 +3616,7 @@
       "weight": "60.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 6,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -3608,6 +3687,7 @@
       "weight": "210.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Ice",
@@ -3632,6 +3712,7 @@
       "weight": "122.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 6,
       "multipliers": null,
       "weaknesses": [
         "Bug",
@@ -3649,6 +3730,7 @@
       "weight": "4.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
+      "rarity": 7,
       "multipliers": null,
       "weaknesses": [
         "Bug",
