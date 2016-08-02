@@ -1100,7 +1100,7 @@ message ResponseEnvelop {
   message EvolvePokemonResponse 
   {
     optional EvolvePokemonStatus Result = 1;
-    optional Pokemon EvolvedPokemon = 2;
+    optional PokemonData EvolvedPokemon = 2;
     optional int32 ExpAwarded = 3;
     optional int32 CandyAwarded = 4;
 
@@ -1117,7 +1117,7 @@ message ResponseEnvelop {
   message UpgradePokemonResponse 
   {
     optional UpgradePokemonStatus Result = 1;
-    optional Pokemon UpgradedPokemon = 2;
+    optional PokemonData UpgradedPokemon = 2;
 
     enum UpgradePokemonStatus {
       UNSET = 0;
