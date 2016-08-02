@@ -272,6 +272,7 @@
       "weight": "2.9 kg",
       "candy": "12 Caterpie Candy",
       "egg": "2 km",
+      "rarity": 0,
       "multipliers": 1.05,
       "weaknesses": [
         "Fire",
