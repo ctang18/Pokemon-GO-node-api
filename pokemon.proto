@@ -59,7 +59,7 @@ message RequestEnvelop {
   }
 
   message UpgradePokemonMessage {
-    required fixed64 pokemonId = 1;
+    required fixed64 PokemonId = 1;
   }
   
   message TransferPokemonMessage {
