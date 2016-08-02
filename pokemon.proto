@@ -57,6 +57,10 @@ message RequestEnvelop {
   message EvolvePokemonMessage {
     required fixed64 PokemonId = 1;
   }
+
+  message UpgradePokemonMessage {
+    required fixed64 pokemonId = 1;
+  }
   
   message TransferPokemonMessage {
     required fixed64 PokemonId = 1;
@@ -1109,7 +1113,22 @@ message ResponseEnvelop {
   		FAILED_POKEMON_IS_DEPLOYED = 5;
   	}
   } 
-  
+
+  message UpgradePokemonResponse 
+  {
+    optional UpgradePokemonStatus Result = 1;
+    optional Pokemon UpgradedPokemon = 2;
+
+    enum UpgradePokemonStatus {
+      UNSET = 0;
+      SUCCESS = 1;
+      ERROR_POKEMON_NOT_FOUND = 2;
+      ERROR_INSUFFICIENT_RESOURCES = 3;
+      ERROR_UPGRADE_NOT_AVAILABLE = 4;
+      ERROR_POKEMON_IS_DEPLOYED = 5;
+    }
+  }
+
   message TransferPokemonResponse {
     optional int32 Status = 1;
     optional int32 CandyAwarded = 2;

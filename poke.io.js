@@ -397,6 +397,34 @@ function Pokeio() {
     });
   };
 
+  self.UpgradePokemon = function (pokemonId, callback) {
+    var _self$playerInfo3 = self.playerInfo;
+    var apiEndpoint = _self$playerInfo3.apiEndpoint;
+    var accessToken = _self$playerInfo3.accessToken;
+
+    var upgradePokemon = new RequestEnvelop.UpgradePokemonMessage({
+      'PokemonId': pokemonId
+    });
+
+    var req = new RequestEnvelop.Requests(147, upgradePokemon.encode().toBuffer());
+
+    api_req(apiEndpoint, accessToken, req, function (err, f_ret) {
+      if (err) {
+        return callback(err);
+      } else if (!f_ret || !f_ret.payload || !f_ret.payload[0]) {
+        return callback('No result');
+      }
+
+      var dErr, response;
+      try {
+        response = ResponseEnvelop.UpgradePokemonResponse.decode(f_ret.payload[0]);
+      } catch (err) {
+        dErr = err;
+      }
+      callback(dErr, response);
+    });
+  };
+
   self.TransferPokemon = function (pokemonId, callback) {
     var _self$playerInfo3 = self.playerInfo;
     var apiEndpoint = _self$playerInfo3.apiEndpoint;
