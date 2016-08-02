@@ -337,7 +337,7 @@ message ResponseEnvelop {
   }
 
   message Pokemon {
-    optional int32 id = 1;
+    optional fixed64 id = 1;
     optional PokemonId pokemon_type = 2;
     optional int32 cp = 3;
     optional int32 stamina = 4;
