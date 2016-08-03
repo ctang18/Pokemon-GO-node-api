@@ -72,7 +72,7 @@ message RequestEnvelop {
   
   message UseItemEggIncubatorMessage {
     required string item_id = 1;
-    required fixed64 PokemonId = 2;
+    required uint64 PokemonId = 2;
 	}
   
   message GetHatchedEggsMessage {
