@@ -1148,7 +1148,7 @@ message ResponseEnvelop {
   
   message UseItemEggIncubatorResponse {
     required IncubatorStatus Status = 1;
-    required EggIncubator egg_incubator = 2;
+    optional EggIncubator egg_incubator = 2;
 
     enum IncubatorStatus {
       UNSET = 0;
