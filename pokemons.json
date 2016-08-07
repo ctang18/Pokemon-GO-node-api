@@ -11,7 +11,7 @@
       "weight": "6.9 kg",
       "candy": "25 Bulbasaur Candy",
       "egg": "2 km",
-      "rarity": 2,
+      "rarity": 3,
       "multipliers": 1.58,
       "atk": {
         "min": 126,
@@ -139,7 +139,7 @@
       "weight": "8.5 kg",
       "candy": "25 Charmander Candy",
       "egg": "2 km",
-      "rarity": 2,
+      "rarity": 3,
       "multipliers": 1.65,
       "atk": {
         "min": 128,
@@ -261,7 +261,7 @@
       "weight": "9.0 kg",
       "candy": "25 Squirtle Candy",
       "egg": "2 km",
-      "rarity": 2,
+      "rarity": 3,
       "multipliers": 2.1,
       "weaknesses": [
         "Electric",
@@ -878,10 +878,23 @@
       "weight": "7.0 kg",
       "candy": "25 Nidoran ♀ (Female) Candy",
       "egg": "5 km",
+      "rarity": 3,
       "multipliers": [
         1.63,
         2.48
       ],
+      "atk": {
+        "min": 100,
+        "max": 115
+      },
+      "def": {
+        "min": 104,
+        "max": 119
+      },
+      "stam": {
+        "min": 110,
+        "max": 125
+      },
       "weaknesses": [
         "Ground",
         "Psychic"
@@ -907,10 +920,23 @@
       "weight": "20.0 kg",
       "candy": "100 Nidoran ♀ Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": [
         1.83,
         2.48
       ],
+      "atk": {
+        "min": 132,
+        "max": 147
+      },
+      "def": {
+        "min": 136,
+        "max": 151
+      },
+      "stam": {
+        "min": 140,
+        "max": 155
+      },
       "weaknesses": [
         "Ground",
         "Psychic"
@@ -940,6 +966,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 184,
+        "max": 199
+      },
+      "def": {
+        "min": 190,
+        "max": 205
+      },
+      "stam": {
+        "min": 180,
+        "max": 195
+      },
       "weaknesses": [
         "Water",
         "Ice",
@@ -967,10 +1005,23 @@
       "weight": "9.0 kg",
       "candy": "25 Nidoran ♂ (Male) Candy",
       "egg": "5 km",
+      "rarity": 3,
       "multipliers": [
         1.64,
         1.7
       ],
+      "atk": {
+        "min": 110,
+        "max": 125
+      },
+      "def": {
+        "min": 94,
+        "max": 109
+      },
+      "stam": {
+        "min": 92,
+        "max": 107
+      },
       "weaknesses": [
         "Ground",
         "Psychic"
@@ -996,7 +1047,20 @@
       "weight": "19.5 kg",
       "candy": "100 Nidoran ♂ Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": 1.83,
+      "atk": {
+        "min": 142,
+        "max": 157
+      },
+      "def": {
+        "min": 128,
+        "max": 143
+      },
+      "stam": {
+        "min": 122,
+        "max": 137
+      },
       "weaknesses": [
         "Ground",
         "Psychic"
@@ -1026,6 +1090,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 204,
+        "max": 219
+      },
+      "def": {
+        "min": 170,
+        "max": 185
+      },
+      "stam": {
+        "min": 162,
+        "max": 177
+      },
       "weaknesses": [
         "Water",
         "Ice",
@@ -1053,10 +1129,23 @@
       "weight": "7.5 kg",
       "candy": "50 Clefairy Candy",
       "egg": "2 km",
+      "rarity": 4,
       "multipliers": [
         2.03,
         2.14
       ],
+      "atk": {
+        "min": 116,
+        "max": 131
+      },
+      "def": {
+        "min": 124,
+        "max": 139
+      },
+      "stam": {
+        "min": 140,
+        "max": 155
+      },
       "weaknesses": [
         "Fighting"
       ],
@@ -1079,6 +1168,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 178,
+        "max": 193
+      },
+      "def": {
+        "min": 178,
+        "max": 193
+      },
+      "stam": {
+        "min": 190,
+        "max": 205
+      },
       "weaknesses": [
         "Fighting"
       ],
@@ -1149,7 +1250,20 @@
       "weight": "5.5 kg",
       "candy": "50 Jigglypuff Candy",
       "egg": "2 km",
+      "rarity": 4,
       "multipliers": 1.85,
+      "atk": {
+        "min": 98,
+        "max": 113
+      },
+      "def": {
+        "min": 54,
+        "max": 69
+      },
+      "stam": {
+        "min": 230,
+        "max": 245
+      },
       "weaknesses": [
         "Fighting"
       ],
@@ -1172,6 +1286,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 168,
+        "max": 183
+      },
+      "def": {
+        "min": 108,
+        "max": 123
+      },
+      "stam": {
+        "min": 280,
+        "max": 295
+      },
       "weaknesses": [
         "Fighting"
       ],
@@ -1244,7 +1370,20 @@
       "weight": "5.4 kg",
       "candy": "25 Oddish Candy",
       "egg": "5 km",
+      "rarity": 3,
       "multipliers": 1.5,
+      "atk": {
+        "min": 134,
+        "max": 149
+      },
+      "def": {
+        "min": 130,
+        "max": 145
+      },
+      "stam": {
+        "min": 90,
+        "max": 105
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -1272,7 +1411,20 @@
       "weight": "8.6 kg",
       "candy": "100 Oddish Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": 1.49,
+      "atk": {
+        "min": 162,
+        "max": 177
+      },
+      "def": {
+        "min": 158,
+        "max": 173
+      },
+      "stam": {
+        "min": 120,
+        "max": 135
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -1304,6 +1456,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 202,
+        "max": 217
+      },
+      "def": {
+        "min": 190,
+        "max": 205
+      },
+      "stam": {
+        "min": 150,
+        "max": 165
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -1695,6 +1859,7 @@
       "weight": "12.4 kg",
       "candy": "25 Poliwag Candy",
       "egg": "5 km",
+      "rarity": 3,
       "multipliers": [
         1.72,
         1.73
@@ -1736,6 +1901,7 @@
       "weight": "20.0 kg",
       "candy": "100 Poliwag Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": 1.95,
       "atk": {
         "min": 132,
@@ -1992,7 +2158,20 @@
       "weight": "4.0 kg",
       "candy": "25 Bellsprout Candy",
       "egg": "5 km",
+      "rarity": 3,
       "multipliers": 1.57,
+      "atk": {
+        "min": 158,
+        "max": 173
+      },
+      "def": {
+        "min": 78,
+        "max": 93
+      },
+      "stam": {
+        "min": 100,
+        "max": 115
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -2022,6 +2201,18 @@
       "egg": "Not in Eggs",
       "rarity": 4,
       "multipliers": 1.59,
+      "atk": {
+        "min": 190,
+        "max": 205
+      },
+      "def": {
+        "min": 110,
+        "max": 125
+      },
+      "stam": {
+        "min": 130,
+        "max": 145
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -2053,6 +2244,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 222,
+        "max": 237
+      },
+      "def": {
+        "min": 152,
+        "max": 167
+      },
+      "stam": {
+        "min": 160,
+        "max": 175
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -2127,10 +2330,23 @@
       "weight": "20.0 kg",
       "candy": "25 Geodude Candy",
       "egg": "2 km",
+      "rarity": 3,
       "multipliers": [
         1.75,
         1.76
       ],
+      "atk": {
+        "min": 106,
+        "max": 121
+      },
+      "def": {
+        "min": 118,
+        "max": 233
+      },
+      "stam": {
+        "min": 80,
+        "max": 95
+      },
       "weaknesses": [
         "Water",
         "Grass",
@@ -2160,10 +2376,23 @@
       "weight": "105.0 kg",
       "candy": "100 Geodude Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": [
         1.64,
         1.72
       ],
+      "atk": {
+        "min": 142,
+        "max": 157
+      },
+      "def": {
+        "min": 156,
+        "max": 171
+      },
+      "stam": {
+        "min": 110,
+        "max": 125
+      },
       "weaknesses": [
         "Water",
         "Grass",
@@ -2197,6 +2426,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 176,
+        "max": 191
+      },
+      "def": {
+        "min": 198,
+        "max": 213
+      },
+      "stam": {
+        "min": 160,
+        "max": 175
+      },
       "weaknesses": [
         "Water",
         "Grass",
@@ -2276,6 +2517,7 @@
       "weight": "36.0 kg",
       "candy": "50 Slowpoke Candy",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": 2.21,
       "atk": {
         "min": 110,
@@ -2466,10 +2708,23 @@
       "weight": "90.0 kg",
       "candy": "50 Seel Candy",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": [
         1.04,
         1.96
       ],
+      "atk": {
+        "min": 104,
+        "max": 119
+      },
+      "def": {
+        "min": 138,
+        "max": 153
+      },
+      "stam": {
+        "min": 130,
+        "max": 145
+      },
       "weaknesses": [
         "Electric",
         "Grass"
@@ -2493,6 +2748,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 156,
+        "max": 171
+      },
+      "def": {
+        "min": 192,
+        "max": 207
+      },
+      "stam": {
+        "min": 180,
+        "max": 195
+      },
       "weaknesses": [
         "Electric",
         "Grass",
@@ -2516,7 +2783,20 @@
       "weight": "30.0 kg",
       "candy": "50 Grimer Candy",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": 2.44,
+      "atk": {
+        "min": 124,
+        "max": 139
+      },
+      "def": {
+        "min": 110,
+        "max": 125
+      },
+      "stam": {
+        "min": 160,
+        "max": 175
+      },
       "weaknesses": [
         "Ground",
         "Psychic"
@@ -2540,6 +2820,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 180,
+        "max": 195
+      },
+      "def": {
+        "min": 188,
+        "max": 203
+      },
+      "stam": {
+        "min": 210,
+        "max": 225
+      },
       "weaknesses": [
         "Ground",
         "Psychic"
@@ -2863,10 +3155,23 @@
       "weight": "2.5 kg",
       "candy": "50 Exeggcute Candy",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": [
         2.70,
         3.18
       ],
+      "atk": {
+        "min": 110,
+        "max": 125
+      },
+      "def": {
+        "min": 132,
+        "max": 147
+      },
+      "stam": {
+        "min": 120,
+        "max": 135
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -2895,6 +3200,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 232,
+        "max": 247
+      },
+      "def": {
+        "min": 164,
+        "max": 179
+      },
+      "stam": {
+        "min": 190,
+        "max": 205
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -3065,7 +3382,20 @@
       "weight": "115.0 kg",
       "candy": "50 Rhyhorn Candy",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": 1.91,
+      "atk": {
+        "min": 110,
+        "max": 125
+      },
+      "def": {
+        "min": 116,
+        "max": 131
+      },
+      "stam": {
+        "min": 160,
+        "max": 175
+      },
       "weaknesses": [
         "Water",
         "Grass",
@@ -3093,6 +3423,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 166,
+        "max": 181
+      },
+      "def": {
+        "min": 160,
+        "max": 175
+      },
+      "stam": {
+        "min": 210,
+        "max": 225
+      },
       "weaknesses": [
         "Water",
         "Grass",
@@ -3441,6 +3783,7 @@
       "weight": "10.0 kg",
       "candy": "400 Magikarp Candy",
       "egg": "2 km",
+      "rarity": 4,
       "multipliers": [
         10.1,
         11.8
@@ -3560,6 +3903,7 @@
       "weight": "6.5 kg",
       "candy": "25 Eevee Candy (Evolution decided at random. Or, for first evolution, rename Eevee: Rainer => Vaporeon, Sparky => Jolteon, Pyro => Flareon)",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": [
         2.02,
         2.64
@@ -3701,7 +4045,20 @@
       "weight": "7.5 kg",
       "candy": "50 Omanyte Candy",
       "egg": "10 km",
+      "rarity": 4,
       "multipliers": 2.12,
+      "atk": {
+        "min": 132,
+        "max": 147
+      },
+      "def": {
+        "min": 160,
+        "max": 175
+      },
+      "stam": {
+        "min": 70,
+        "max": 85
+      },
       "weaknesses": [
         "Electric",
         "Grass",
@@ -3727,6 +4084,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 178,
+        "max": 193
+      },
+      "def": {
+        "min": 178,
+        "max": 193
+      },
+      "stam": {
+        "min": 190,
+        "max": 205
+      },
       "weaknesses": [
         "Electric",
         "Grass",
@@ -3904,6 +4273,7 @@
       "weight": "3.3 kg",
       "candy": "25 Dratini Candy",
       "egg": "10 km",
+      "rarity": 3,
       "multipliers": [
         1.83,
         1.84
@@ -3946,6 +4316,7 @@
       "weight": "16.5 kg",
       "candy": "100 Dratini Candy",
       "egg": "Not in Eggs",
+      "rarity": 4,
       "multipliers": 2.05,
       "atk": {
         "min": 170,
