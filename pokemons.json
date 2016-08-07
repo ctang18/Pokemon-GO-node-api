@@ -13,6 +13,18 @@
       "egg": "2 km",
       "rarity": 2,
       "multipliers": 1.58,
+      "atk": {
+        "min": 126,
+        "max": 141
+      },
+      "def": {
+        "min": 126,
+        "max": 141
+      },
+      "stam": {
+        "min": 90,
+        "max": 105
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -45,6 +57,18 @@
         1.2,
         1.6
       ],
+      "atk": {
+        "min": 156,
+        "max": 171
+      },
+      "def": {
+        "min": 158,
+        "max": 173
+      },
+      "stam": {
+        "min": 120,
+        "max": 135
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -76,6 +100,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 198,
+        "max": 206
+      },
+      "def": {
+        "min": 200,
+        "max": 215
+      },
+      "stam": {
+        "min": 160,
+        "max": 175
+      },
       "weaknesses": [
         "Fire",
         "Ice",
@@ -105,6 +141,18 @@
       "egg": "2 km",
       "rarity": 2,
       "multipliers": 1.65,
+      "atk": {
+        "min": 128,
+        "max": 143
+      },
+      "def": {
+        "min": 108,
+        "max": 123
+      },
+      "stam": {
+        "min": 78,
+        "max": 93
+      },
       "weaknesses": [
         "Water",
         "Ground",
@@ -133,6 +181,18 @@
       "egg": "Not in Eggs",
       "rarity": 4,
       "multipliers": 1.79,
+      "atk": {
+        "min": 160,
+        "max": 175
+      },
+      "def": {
+        "min": 140,
+        "max": 155
+      },
+      "stam": {
+        "min": 116,
+        "max": 131
+      },
       "weaknesses": [
         "Water",
         "Ground",
@@ -163,6 +223,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 212,
+        "max": 227
+      },
+      "def": {
+        "min": 182,
+        "max": 197
+      },
+      "stam": {
+        "min": 156,
+        "max": 171
+      },
       "weaknesses": [
         "Water",
         "Electric",
@@ -195,6 +267,18 @@
         "Electric",
         "Grass"
       ],
+      "atk": {
+        "min": 112,
+        "max": 127
+      },
+      "def": {
+        "min": 142,
+        "max": 157
+      },
+      "stam": {
+        "min": 88,
+        "max": 103
+      },
       "next_evolution": [
         {
           "num": "008",
@@ -222,6 +306,18 @@
         "Electric",
         "Grass"
       ],
+      "atk": {
+        "min": 144,
+        "max": 159
+      },
+      "def": {
+        "min": 176,
+        "max": 191
+      },
+      "stam": {
+        "min": 118,
+        "max": 133
+      },
       "prev_evolution": [
         {
           "num": "007",
@@ -247,6 +343,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 186,
+        "max": 201
+      },
+      "def": {
+        "min": 222,
+        "max": 237
+      },
+      "stam": {
+        "min": 158,
+        "max": 173
+      },
       "weaknesses": [
         "Electric",
         "Grass"
@@ -830,7 +938,7 @@
       "weight": "60.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -916,7 +1024,7 @@
       "weight": "62.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -1062,7 +1170,7 @@
       "weight": "12.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Fighting"
@@ -1194,7 +1302,7 @@
       "weight": "18.6 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -1439,7 +1547,7 @@
       "weight": "76.6 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -1512,10 +1620,23 @@
       "weight": "19.0 kg",
       "candy": "50 Growlithe Candy",
       "egg": "5 km",
+      "rarity": 4,
       "multipliers": [
         2.31,
         2.36
       ],
+      "atk": {
+        "min": 156,
+        "max": 171
+      },
+      "def": {
+        "min": 110,
+        "max": 125
+      },
+      "stam": {
+        "min": 110,
+        "max": 125
+      },
       "weaknesses": [
         "Water",
         "Ground",
@@ -1538,8 +1659,20 @@
       "weight": "155.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 230,
+        "max": 245
+      },
+      "def": {
+        "min": 180,
+        "max": 195
+      },
+      "stam": {
+        "min": 180,
+        "max": 195
+      },
       "weaknesses": [
         "Water",
         "Ground",
@@ -1566,6 +1699,18 @@
         1.72,
         1.73
       ],
+      "atk": {
+        "min": 108,
+        "max": 123
+      },
+      "def": {
+        "min": 98,
+        "max": 113
+      },
+      "stam": {
+        "min": 80,
+        "max": 95
+      },
       "weaknesses": [
         "Electric",
         "Grass"
@@ -1592,6 +1737,18 @@
       "candy": "100 Poliwag Candy",
       "egg": "Not in Eggs",
       "multipliers": 1.95,
+      "atk": {
+        "min": 132,
+        "max": 147
+      },
+      "def": {
+        "min": 132,
+        "max": 147
+      },
+      "stam": {
+        "min": 130,
+        "max": 145
+      },
       "weaknesses": [
         "Electric",
         "Grass"
@@ -1619,8 +1776,20 @@
       "weight": "54.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 180,
+        "max": 195
+      },
+      "def": {
+        "min": 202,
+        "max": 217
+      },
+      "stam": {
+        "min": 180,
+        "max": 195
+      },
       "weaknesses": [
         "Electric",
         "Grass",
@@ -1882,7 +2051,7 @@
       "weight": "15.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -2026,7 +2195,7 @@
       "weight": "300.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -2108,6 +2277,18 @@
       "candy": "50 Slowpoke Candy",
       "egg": "5 km",
       "multipliers": 2.21,
+      "atk": {
+        "min": 110,
+        "max": 125
+      },
+      "def": {
+        "min": 110,
+        "max": 125
+      },
+      "stam": {
+        "min": 180,
+        "max": 195
+      },
       "weaknesses": [
         "Electric",
         "Grass",
@@ -2132,8 +2313,20 @@
       "weight": "78.5 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 184,
+        "max": 199
+      },
+      "def": {
+        "min": 198,
+        "max": 213
+      },
+      "stam": {
+        "min": 190,
+        "max": 205
+      },
       "weaknesses": [
         "Electric",
         "Grass",
@@ -2298,7 +2491,7 @@
       "weight": "120.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -2345,7 +2538,7 @@
       "weight": "30.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Ground",
@@ -2700,7 +2893,7 @@
       "weight": "120.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Fire",
@@ -2898,7 +3091,7 @@
       "weight": "120.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Water",
@@ -3252,6 +3445,18 @@
         10.1,
         11.8
       ],
+      "atk": {
+        "min": 42,
+        "max": 57
+      },
+      "def": {
+        "min": 84,
+        "max": 99
+      },
+      "stam": {
+        "min": 40,
+        "max": 55
+      },
       "weaknesses": [
         "Electric",
         "Grass"
@@ -3273,8 +3478,20 @@
       "weight": "235.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 192,
+        "max": 207
+      },
+      "def": {
+        "min": 196,
+        "max": 211
+      },
+      "stam": {
+        "min": 190,
+        "max": 205
+      },
       "weaknesses": [
         "Electric",
         "Rock"
@@ -3296,7 +3513,19 @@
       "weight": "220.0 kg",
       "candy": "None",
       "egg": "10 km",
-      "rarity": 4,
+      "rarity": 5,
+      "atk": {
+        "min": 186,
+        "max": 201
+      },
+      "def": {
+        "min": 190,
+        "max": 205
+      },
+      "stam": {
+        "min": 260,
+        "max": 275
+      },
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3335,6 +3564,18 @@
         2.02,
         2.64
       ],
+      "atk": {
+        "min": 114,
+        "max": 129
+      },
+      "def": {
+        "min": 128,
+        "max": 143
+      },
+      "stam": {
+        "min": 110,
+        "max": 125
+      },
       "weaknesses": [
         "Fighting"
       ],
@@ -3363,8 +3604,20 @@
       "weight": "29.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 186,
+        "max": 201
+      },
+      "def": {
+        "min": 168,
+        "max": 183
+      },
+      "stam": {
+        "min": 260,
+        "max": 275
+      },
       "weaknesses": [
         "Electric",
         "Grass"
@@ -3472,7 +3725,7 @@
       "weight": "35.0 kg",
       "candy": "None",
       "egg": "Not in Eggs",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
       "weaknesses": [
         "Electric",
@@ -3569,8 +3822,20 @@
       "weight": "460.0 kg",
       "candy": "None",
       "egg": "10 km",
-      "rarity": 4,
+      "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 180,
+        "max": 195
+      },
+      "def": {
+        "min": 180,
+        "max": 195
+      },
+      "stam": {
+        "min": 320,
+        "max": 335
+      },
       "weaknesses": [
         "Fighting"
       ]
@@ -3643,6 +3908,18 @@
         1.83,
         1.84
       ],
+      "atk": {
+        "min": 128,
+        "max": 143
+      },
+      "def": {
+        "min": 110,
+        "max": 125
+      },
+      "stam": {
+        "min": 82,
+        "max": 97
+      },
       "weaknesses": [
         "Ice",
         "Dragon",
@@ -3670,6 +3947,18 @@
       "candy": "100 Dratini Candy",
       "egg": "Not in Eggs",
       "multipliers": 2.05,
+      "atk": {
+        "min": 170,
+        "max": 185
+      },
+      "def": {
+        "min": 152,
+        "max": 167
+      },
+      "stam": {
+        "min": 122,
+        "max": 137
+      },
       "weaknesses": [
         "Ice",
         "Dragon",
@@ -3694,6 +3983,18 @@
       "egg": "Not in Eggs",
       "rarity": 5,
       "multipliers": null,
+      "atk": {
+        "min": 250,
+        "max": 265
+      },
+      "def": {
+        "min": 212,
+        "max": 227
+      },
+      "stam": {
+        "min": 182,
+        "max": 197
+      },
       "weaknesses": [
         "Ice",
         "Rock",
